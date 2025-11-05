@@ -1,0 +1,51 @@
+body {
+	
+	background-color: #0d0d0d;
+	margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+#container {
+	
+	color: #f2f2f2;
+	background-color: #404040;
+	box-shadow: 0 0 5px #404040;
+	border: 1px solid #8c8c8c;
+	border-radius: 1px;
+	
+	width: 68%;
+	margin: 1.5em auto;
+	padding: 1.5em;
+	
+}
+
+#urgente {
+
+	background-color: #4d4d4d;
+	color: #ff0000;
+	padding: 8.5px;
+	word-wrap: break-word;
+	
+}
+
+#naourgente {
+
+	background-color: #4d4d4d;
+	color: #ffff00;
+	padding: 8.5px;
+	word-wrap: break-word;
+	
+}
+
+h2 {
+	
+	text-shadow: 2px 2px 3px #000000;
+  
+}
+
+li {
+	
+	text-shadow: 2px 2px 3px #000000;
+  
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Mini-Projeto</title>
+	
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="jscode/notepad.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	
+</head>
+<body>
+    
+	<div id="container">
+	
+		<label for="nota">Insira sua nota: </label><br>
+		<input type="" id="nota" size="33" placeholder="Ex. Dar um passeio à uma e meia.">
+
+		<input type="button" id="inserir" value="Adicionar à lista" onclick="inserir()">
+		<input type="button" id="removedor" value="Remover da lista" onclick="remover()">
+		<input type="button" id="limpeza" value="Remover tudo da lista" onclick="limpar()">
+		<br><br>
+    
+		<input type="radio" id="radiourg" value="Urgente" name="definicao" onclick="seturgente()" checked>
+		<label for="radiourg">Urgente</label>
+		<br>
+		
+		<input type="radio" id="radionon" value="Nao e urgente" name="definicao" onclick="setnaourgente()">
+		<label for="radiourg">Não é urgente</label>
+
+		<h2>Notas urgentes</h2>
+		<div id="urgente">
+		</div>
+
+		<h2>Notas não urgentes</h2>
+		<div id="naourgente">
+		</div>
+		
+    </div>
+	
+</body>
+</html>
