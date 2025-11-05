@@ -23,12 +23,16 @@
 		<input type="button" id="limpeza" value="Remover tudo da lista" onclick="limpar()">
 		<br><br>
     
-		<input type="radio" id="radiourg" value="Urgente" name="definicao" onclick="seturgente()" checked>
-		<label for="radiourg">Urgente</label>
-		<br>
+		<div id="radio_ui">
 		
-		<input type="radio" id="radionon" value="Nao e urgente" name="definicao" onclick="setnaourgente()">
-		<label for="radiourg">Não é urgente</label>
+			<input type="radio" id="radiourg" value="Urgente" name="definicao" onclick="seturgente()" checked>
+			<label for="radiourg">Urgente</label>
+			<br>
+		
+			<input type="radio" id="radionon" value="Nao e urgente" name="definicao" onclick="setnaourgente()">
+			<label for="radiourg">Não é urgente</label>
+
+		</div>
 
 		<h2>Notas urgentes</h2>
 		<div id="urgente">

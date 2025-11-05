@@ -49,3 +49,11 @@ li {
 	text-shadow: 2px 2px 3px #000000;
   
 }
+
+#radio_ui {
+
+	color: #f2f2f2;
+	background-color: #4d4d4d;
+	padding: 8.5px;
+	
+}
